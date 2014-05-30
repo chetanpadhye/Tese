@@ -1,4 +1,5 @@
-    var button = document.createElement('BUTTON');
+function injectScript() { 
+         var button = document.createElement('BUTTON');
      button.id = 'button' ;
      button.className = 'block' ;
      var t=document.createTextNode('Fyi');
@@ -43,4 +44,4 @@
      subtree: true,
      attributes: true
      });
-     
+     };
